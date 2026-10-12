@@ -67,6 +67,14 @@
         "/^Set-Location \"c:\\\\Users\\\\Dhanu\\\\Downloads\\\\NM Project\\\\backend\"; Get-ChildItem -Path \\.\\\\\\.venv\\\\Lib\\\\site-packages\\\\sqlalchemy -Recurse -Filter \\*\\.pyd \\| Rename-Item -NewName \\{ \"\\$\\(\\$_\\.Name\\)\\.blocked\" \\}; \\.\\\\\\.venv\\\\Scripts\\\\python -c \"import sqlalchemy; print\\('SQLAlchemy pure-Python fallback loaded:', sqlalchemy\\.__version__\\)\"$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^git remote set-url origin https://github\\.com/vsachin6383-cloud/pocket-smart-ai\\.git; if \\(\\$\\?\\) \\{ git push -u origin main \\}$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git push -u origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
